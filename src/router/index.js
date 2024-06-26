@@ -4,6 +4,10 @@ import Tugas from '../components/Tugas.vue';
 
 const routes = [
   {
+    path: '/',
+    redirect: '/page1'
+  },
+  {
     path: '/page1',
     name: 'PageOne',
     component: Weather,

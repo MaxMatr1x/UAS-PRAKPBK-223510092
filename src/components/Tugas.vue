@@ -121,11 +121,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 20px; /* Spasi antar item */
+    gap: 20px; 
   }
   
   .q-item {
-    flex: 0 1 calc(33.33% - 20px); /* 3 item per baris dengan spasi */
+    flex: 0 1 calc(33.33% - 20px); 
   }
   </style>
   

@@ -63,7 +63,6 @@ export default {
       }
     },
     formatTemperature(temp) {
-      // Konversi dari Kelvin ke Celsius
       return Math.round(temp - 273.15);
     },
   },
@@ -76,10 +75,10 @@ export default {
   max-width: 400px;
   margin: 0 auto;
   margin-top: 50px;
-  padding: 20px; /* tambahkan padding agar konten tidak terlalu rapat dengan tepi */
-  border: 1px solid #ccc; /* tambahkan border untuk kotak */
-  border-radius: 8px; /* tambahkan border-radius untuk sudut kotak */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* tambahkan shadow untuk efek 3D */
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   background-color: rgba(249, 249, 249, 0.404);
   backdrop-filter: blur(4px);
 }
@@ -94,10 +93,10 @@ export default {
   max-width: 400px;
   margin: 0 auto;
   margin-top: 30px;
-  padding: 20px; /* tambahkan padding agar konten tidak terlalu rapat dengan tepi */
-  border: 1px solid #ccc; /* tambahkan border untuk kotak */
-  border-radius: 8px; /* tambahkan border-radius untuk sudut kotak */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* tambahkan shadow untuk efek 3D */
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .location {
@@ -107,7 +106,7 @@ export default {
 
 .temperature {
   font-size: 24px;
-  color: #ff5722; /* Warna teks suhu yang lebih menonjol */
+  color: #ff5722; 
 }
 
 .description {
